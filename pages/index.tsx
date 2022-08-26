@@ -6,7 +6,7 @@ import { NextPageWithLayout } from './page'
 
 const Home: NextPageWithLayout = () => {
     return (
-        <section className="">
+        <section className="bg-gradient-to-r from-cyan-500 to-blue-500 w-full">
             <h1 className="">
                 Welcome to <a href="https://nextjs.org">Next.js!</a>
             </h1>
