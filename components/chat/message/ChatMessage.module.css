@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    background: #efefef;
+    color: black;
+    border-radius: 25px;
+    padding: 10px 25px 10px 25px;
+}
+
+.sender_name {
+    text-align: left;
+    font-weight: bold;
+}
+
+.message {
+    padding: 0px 25px 25px 0px;
+}
+
+.timestamp {
+    text-align: right;
+}
