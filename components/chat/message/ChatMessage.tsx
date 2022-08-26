@@ -14,7 +14,11 @@ const ChatMessage: React.FC<IChatMessage> = ({
     to,
 }) => {
     return (
-        <div className={styles.wrapper}>
+        <div
+            className={`${styles.wrapper} ${
+                to === 'Luis 1' ? styles.recieved : styles.sent
+            }`}
+        >
             <div className={styles.sender_name}>{from}</div>
             <div className={styles.message}>{messageText}</div>
             <div className={styles.timestamp}>{timestamp}</div>

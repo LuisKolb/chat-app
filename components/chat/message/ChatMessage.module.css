@@ -2,10 +2,17 @@
     display: flex;
     flex-direction: column;
     max-width: 40%;
-    background: #efefef;
-    color: black;
     border-radius: 25px;
     padding: 10px 25px 10px 25px;
+}
+
+.sent {
+    background: skyblue;
+    color: white;
+}
+.recieved {
+    background: #efefef;
+    color: black;
 }
 
 .sender_name {
